@@ -120,7 +120,7 @@ body {
 
 .color {
     text-align: center;
-    width: 52%;
+    width: 45%;
     font-size: 1.5rem;
     border: 2px solid #1A1B25;
     padding: 10px;
@@ -150,3 +150,8 @@ body {
     }
 }
 
+@media (max-width: 400px){
+  .color {
+    width: 60%;
+  }
+}
